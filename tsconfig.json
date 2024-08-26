@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "ES2020",
+      "target": "ESNext",
+      "moduleResolution": "Bundler",
+      "declaration": true,
+      "outDir": "./dist",
+      "strictPropertyInitialization": false,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "jsx": "react-jsx",
+    },
+    "include": ["src/**/*", "custom.d.ts"],
+  }
